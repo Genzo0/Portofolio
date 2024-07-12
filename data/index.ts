@@ -1,7 +1,7 @@
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Cooperative Loan and Saving System.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Koperasi - Cooperative Loan and Saving System",
+    des: "A cooperative loan and saving system that allows members to save and apply for loans.",
+    img: "/koperasi.svg",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://ksp-phi.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Quiz App - a React Quiz App",
+    des: "A quiz app that allows users to take quizzes and get results based on their answers.",
+    img: "/quiz.svg",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://quiz-frontend-sooty.vercel.app/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "RIZPEG UB - A Tracking Website",
+    des: "A website for track an expedition item for employees",
+    img: "/rizpeg.svg",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://track-app-portfolio.vercel.app/",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Qiran ID - A Wedding Invitation Website",
+    des: "A website for a wedding organizer company that allows users to see the services they offer.",
+    img: "/qiran.svg",
+    iconLists: ["/nuxt.svg", "/tail.svg"],
+    link: "https://github.com/acaruto-id/qiran-frontend-nuxt",
   },
 ];
 
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Web Developer Intern - SOCA AI",
+    desc: "Assisted in the development of a web-based platform using MEVN Tech Stack for enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Freelance Web Developer",
+    desc: "Developed a website for a client using modern frontend & backend technologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Lead Frontend Developer - Qiran ID",
+    desc: "Developed and maintained user-facing features using NUXTJS framework.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Lead Frontend Developer - Koperasi",
+    desc: "Developed and maintained user-facing features using NEXTJS framework.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/genzo0",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    link: "https://instagram.com/alifyannugroho",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://linkedin.com/in/alifyan",
   },
 ];
