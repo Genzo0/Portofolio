@@ -80,6 +80,14 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Genzo Media - A Social Media Clone Web App",
+    des: "A social media clone web app that allows users to post, comment, like, message, bookmark etc...",
+    img: "/genzomedia.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://genzomedia.vercel.app",
+  },
+  {
+    id: 3,
     title: "Quiz App - a React Quiz App",
     des: "A quiz app that allows users to take quizzes and get results based on their answers.",
     img: "/quiz.svg",
@@ -87,7 +95,7 @@ export const projects = [
     link: "https://quiz-frontend-sooty.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "RIZPEG UB - A Tracking Website",
     des: "A website for track an expedition item for employees",
     img: "/rizpeg.svg",
@@ -95,7 +103,7 @@ export const projects = [
     link: "https://track-app-portfolio.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Qiran ID - A Wedding Invitation Website",
     des: "A website for a wedding organizer company that allows users to see the services they offer.",
     img: "/qiran.svg",
