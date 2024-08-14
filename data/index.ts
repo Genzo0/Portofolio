@@ -1,3 +1,5 @@
+import { base_url } from "@/config";
+
 export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
@@ -49,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Cooperative Loan and Saving System.",
+    title: "Currently building a Income and Expense Tracker.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -68,6 +70,18 @@ export const gridItems = [
     spareImg: "",
   },
 ];
+
+// export async function getProjects() {
+//   const request = await fetch(`${base_url}projects?populate=*`, {
+//     headers: {
+//       "Content-Type": "application/json",
+//       Authorization: `Bearer ${process.env.NEXT_PUBLIC_API_KEY}`,
+//     },
+//   });
+//   const projects = await request.json();
+
+//   return projects;
+// }
 
 export const projects = [
   {
