@@ -1,4 +1,5 @@
 import { base_url } from "@/config";
+import { title } from "process";
 
 export const navItems = [
   { name: "Home", link: "#home" },
@@ -51,7 +52,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a Income and Expense Tracker.",
+    title:
+      "Currently building a Roro Jonggrang Indonesia Company Profile Website.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -86,6 +88,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Uangqu - Income and Expense Tracker",
+    des: "An income and expense tracker that allows users to track their income and expenses.",
+    img: "/uangqu.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://expense-tracker-gilt-sigma.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Koperasi - Cooperative Loan and Saving System",
     des: "A cooperative loan and saving system that allows members to save and apply for loans.",
     img: "/koperasi.svg",
@@ -93,7 +103,7 @@ export const projects = [
     link: "https://ksp-phi.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Genzo Media - A Social Media Clone Web App",
     des: "A social media clone web app that allows users to post, comment, like, message, bookmark etc...",
     img: "/genzomedia.png",
@@ -101,7 +111,7 @@ export const projects = [
     link: "https://genzomedia.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "Quiz App - a React Quiz App",
     des: "A quiz app that allows users to take quizzes and get results based on their answers.",
     img: "/quiz.svg",
@@ -109,7 +119,7 @@ export const projects = [
     link: "https://quiz-frontend-sooty.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "RIZPEG UB - A Tracking Website",
     des: "A website for track an expedition item for employees",
     img: "/rizpeg.svg",
@@ -117,7 +127,7 @@ export const projects = [
     link: "https://track-app-portfolio.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Qiran ID - A Wedding Invitation Website",
     des: "A website for a wedding organizer company that allows users to see the services they offer.",
     img: "/qiran.svg",
