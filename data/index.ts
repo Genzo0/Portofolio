@@ -1,6 +1,3 @@
-import { base_url } from "@/config";
-import { title } from "process";
-
 export const navItems = [
   { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
@@ -52,8 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title:
-      "Currently building a Roro Jonggrang Indonesia Company Profile Website.",
+    title: "Currently working on a marketplace platform website",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,53 +69,17 @@ export const gridItems = [
   },
 ];
 
-// export async function getProjects() {
-//   const request = await fetch(`${base_url}projects?populate=*`, {
-//     headers: {
-//       "Content-Type": "application/json",
-//       Authorization: `Bearer ${process.env.NEXT_PUBLIC_API_KEY}`,
-//     },
-//   });
-//   const projects = await request.json();
-
-//   return projects;
-// }
-
 export const projects = [
   {
     id: 1,
-    title: "Uangqu - Income and Expense Tracker",
-    des: "An income and expense tracker that allows users to track their income and expenses.",
-    img: "/uangqu.png",
-    iconLists: ["/next.svg", "/tail.svg"],
-    link: "https://expense-tracker-gilt-sigma.vercel.app/",
+    title: "Qiran ID - A Wedding Invitation Website",
+    des: "A website for a wedding organizer company that allows users to see the services they offer.",
+    img: "/qiran.svg",
+    iconLists: ["/nuxt.svg", "/tail.svg"],
+    link: "https://github.com/acaruto-id/qiran-frontend-nuxt",
   },
   {
     id: 2,
-    title: "Koperasi - Cooperative Loan and Saving System",
-    des: "A cooperative loan and saving system that allows members to save and apply for loans.",
-    img: "/koperasi.svg",
-    iconLists: ["/next.svg", "/tail.svg"],
-    link: "https://ksp-phi.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Genzo Media - A Social Media Clone Web App",
-    des: "A social media clone web app that allows users to post, comment, like, message, bookmark etc...",
-    img: "/genzomedia.png",
-    iconLists: ["/next.svg", "/tail.svg"],
-    link: "https://genzomedia.vercel.app",
-  },
-  {
-    id: 4,
-    title: "Quiz App - a React Quiz App",
-    des: "A quiz app that allows users to take quizzes and get results based on their answers.",
-    img: "/quiz.svg",
-    iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://quiz-frontend-sooty.vercel.app/",
-  },
-  {
-    id: 5,
     title: "RIZPEG UB - A Tracking Website",
     des: "A website for track an expedition item for employees",
     img: "/rizpeg.svg",
@@ -127,12 +87,44 @@ export const projects = [
     link: "https://track-app-portfolio.vercel.app/",
   },
   {
+    id: 3,
+    title: "Quiz App - a React Quiz App",
+    des: "A quiz app that allows users to take quizzes and get results based on their answers.",
+    img: "/quiz.svg",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://quiz-frontend-sooty.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Genzo Media - A Social Media Clone Web App",
+    des: "A social media clone web app that allows users to post, comment, like, message, bookmark etc...",
+    img: "/genzomedia.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://genzomedia.vercel.app",
+  },
+  {
+    id: 5,
+    title: "Koperasi - Cooperative Loan and Saving System",
+    des: "A cooperative loan and saving system that allows members to save and apply for loans.",
+    img: "/koperasi.svg",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://ksp-phi.vercel.app/",
+  },
+  {
     id: 6,
-    title: "Qiran ID - A Wedding Invitation Website",
-    des: "A website for a wedding organizer company that allows users to see the services they offer.",
-    img: "/qiran.svg",
-    iconLists: ["/nuxt.svg", "/tail.svg"],
-    link: "https://github.com/acaruto-id/qiran-frontend-nuxt",
+    title: "Uangqu - Income and Expense Tracker",
+    des: "An income and expense tracker that allows users to track their income and expenses.",
+    img: "/uangqu.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://expense-tracker-gilt-sigma.vercel.app/",
+  },
+  {
+    id: 7,
+    title: "Roro Jonggrang Indonesia - A Company Profile Website",
+    des: "A company profile website that allows users to see the services they offer.",
+    img: "/rji.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://rorojonggrang-eo.com",
   },
 ];
 
