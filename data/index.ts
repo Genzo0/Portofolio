@@ -126,6 +126,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg"],
     link: "https://rorojonggrang-eo.com",
   },
+  {
+    id: 8,
+    title: "AI Resume Builder - A Resume Builder Web App",
+    des: "A resume builder web app that allows users to create resumes.",
+    img: "/resume_builder.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://ai-resume-builder.site/",
+  },
 ];
 
 export const testimonials = [
