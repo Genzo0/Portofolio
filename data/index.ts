@@ -70,30 +70,30 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "Qiran ID - A Wedding Invitation Website",
-    des: "A website for a wedding organizer company that allows users to see the services they offer.",
-    img: "/qiran.svg",
-    iconLists: ["/nuxt.svg", "/tail.svg"],
-    link: "https://github.com/acaruto-id/qiran-frontend-nuxt",
-  },
-  {
-    id: 2,
-    title: "RIZPEG UB - A Tracking Website",
-    des: "A website for track an expedition item for employees",
-    img: "/rizpeg.svg",
-    iconLists: ["/next.svg", "/tail.svg"],
-    link: "https://track-app-portfolio.vercel.app/",
-  },
-  {
-    id: 3,
-    title: "Quiz App - a React Quiz App",
-    des: "A quiz app that allows users to take quizzes and get results based on their answers.",
-    img: "/quiz.svg",
-    iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://quiz-frontend-sooty.vercel.app/",
-  },
+  // {
+  //   id: 1,
+  //   title: "Qiran ID - A Wedding Invitation Website",
+  //   des: "A website for a wedding organizer company that allows users to see the services they offer.",
+  //   img: "/qiran.svg",
+  //   iconLists: ["/nuxt.svg", "/tail.svg"],
+  //   link: "https://github.com/acaruto-id/qiran-frontend-nuxt",
+  // },
+  // {
+  //   id: 2,
+  //   title: "RIZPEG UB - A Tracking Website",
+  //   des: "A website for track an expedition item for employees",
+  //   img: "/rizpeg.svg",
+  //   iconLists: ["/next.svg", "/tail.svg"],
+  //   link: "https://track-app-portfolio.vercel.app/",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Quiz App - a React Quiz App",
+  //   des: "A quiz app that allows users to take quizzes and get results based on their answers.",
+  //   img: "/quiz.svg",
+  //   iconLists: ["/re.svg", "/tail.svg"],
+  //   link: "https://quiz-frontend-sooty.vercel.app/",
+  // },
   {
     id: 4,
     title: "Genzo Media - A Social Media Clone Web App",
@@ -131,8 +131,16 @@ export const projects = [
     title: "AI Resume Builder - A Resume Builder Web App",
     des: "A resume builder web app that allows users to create resumes.",
     img: "/resume_builder.png",
-    iconLists: ["/next.svg", "/tail.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/gsap.svg", "three.svg"],
     link: "https://ai-resume-builder.site/",
+  },
+  {
+    id: 9,
+    title: "Suburbia Skate - A Skateboard Customizer Website",
+    des: "A skateboard customizer website that allows users to customize their skateboards.",
+    img: "/suburbia.png",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://suburbia-skate-genzo0.netlify.app/",
   },
 ];
 
@@ -212,21 +220,21 @@ export const workExperience = [
   },
   {
     id: 2,
-    title: "Freelance Web Developer",
+    title: "Lead Frontend Developer - Sigma Mandiri Paripurna",
     desc: "Developed a website for a client using modern frontend & backend technologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Lead Frontend Developer - Qiran ID",
+    title: "Lead Frontend Developer - Roro Jonggrang Indonesia",
     desc: "Developed and maintained user-facing features using NUXTJS framework.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer - Koperasi",
+    title: "Lead Frontend Developer - KSP",
     desc: "Developed and maintained user-facing features using NEXTJS framework.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
