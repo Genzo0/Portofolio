@@ -131,7 +131,7 @@ export const projects = [
     title: "AI Resume Builder - A Resume Builder Web App",
     des: "A resume builder web app that allows users to create resumes.",
     img: "/resume_builder.png",
-    iconLists: ["/next.svg", "/tail.svg", "/gsap.svg", "three.svg"],
+    iconLists: ["/next.svg", "/tail.svg"],
     link: "https://ai-resume-builder.site/",
   },
   {
@@ -139,7 +139,7 @@ export const projects = [
     title: "Suburbia Skate - A Skateboard Customizer Website",
     des: "A skateboard customizer website that allows users to customize their skateboards.",
     img: "/suburbia.png",
-    iconLists: ["/next.svg", "/tail.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/gsap.svg", "/three.svg"],
     link: "https://suburbia-skate-genzo0.netlify.app/",
   },
 ];
